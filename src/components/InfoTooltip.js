@@ -11,7 +11,7 @@ const InfoTooltip = (props) => {
             src={props.image}
             alt={props.title}
           />
-          <h2 className="popup__subtitle">{props.title}</h2>
+          <h2 className="popup__subtitle popup__subtitle_auth">{props.title}</h2>
 
         </div>
       </section>

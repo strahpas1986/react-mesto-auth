@@ -22,6 +22,7 @@ const Login = (props) => {
                     placeholder="Email"
                     autoComplete="none"
                     onChange={(evt) => setEmail(evt.target.value)}
+                    value={email}
                 />
                 <input
                     type="password"
@@ -30,11 +31,9 @@ const Login = (props) => {
                     placeholder="Пароль"
                     autoComplete="none"
                     onChange={(evt) => setPassword(evt.target.value)}
+                    value={password}
                 />
                 </div>
-                {/* <div className="root__input-wrapper">
-
-                </div> */}
                 <button className="root__submit" type="submit">Войти</button>
             </form>
         </section>

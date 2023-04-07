@@ -60,6 +60,7 @@
 @import url(./blocks/popup/__subtitle/popup__subtitle.css);
 @import url(./blocks/popup/__subtitle-img/popup__subtitle-img.css);
 @import url(./blocks/popup/__subtitle/_delete-card/popup__subtitle_delete-card.css);
+@import url(./blocks/popup/__subtitle/_auth/popup__subtitle_auth.css);
 @import url(./blocks/popup/__form/popup__form.css);
 @import url(./blocks/popup/__input/popup__input.css);
 @import url(./blocks/popup/__input/_form_edit-avatar/popup_form__edit-avatar.css);

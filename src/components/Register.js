@@ -22,6 +22,7 @@ const Register = (props) => {
                   id="email"
                   placeholder="Email"
                   onChange={(evt) => setEmail(evt.target.value)}
+                  value={email}
               />
               <input
                   type="password"
@@ -29,6 +30,7 @@ const Register = (props) => {
                   id="password"
                   placeholder="Пароль"
                   onChange={(evt) => setPassword(evt.target.value)}
+                  value={password}
               />
             </div>
             <button className="root__submit">Зарегистрироваться</button>
