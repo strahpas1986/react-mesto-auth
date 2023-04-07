@@ -1,0 +1,9 @@
+.element__image {
+  display: block;
+  width: 282px;
+  height: 282px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}
